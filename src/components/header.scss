@@ -1,0 +1,117 @@
+@import '../App.scss';
+
+.headline {
+    .slider__image{
+      width: 100%;
+    }
+    img {
+      filter: brightness(30%);
+      object-fit: cover;
+    }
+  
+    .slider__info {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+      padding: 5rem;
+      bottom: 0px;
+      height: 70%;
+      color: white;
+      transition: opacity 0.3s;
+    }
+  
+    .slider__title {
+      font-size: 30px;
+      font-weight: 600;
+    }
+  
+    .slider__runtime {
+      margin: 1rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .slider__date {
+      padding-right: 1.5rem;
+    }
+  
+    .slider__rating {
+      padding-right: 0.5rem;
+    }
+    .slider__deskripsi {
+      text-align: left;
+      font-weight: 300;
+      line-height: 1.5rem;
+      width: 6 0%;
+    }
+  }
+  
+  // ========== RESPONSIVE ============
+  @media screen and (max-width: 768px) {
+    .headline {
+    
+      .slider__title {
+        font-size: 20px;
+      }
+    
+      .slider__deskripsi {
+        font-size: 14px;
+        width: 80%;
+      }
+  
+      .slider__runtime {
+        font-size: 14px;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 670px) {
+    .headline {
+  
+      .slider__info{
+        padding: 4rem;
+      }
+    
+      .slider__title {
+        font-size: 16px;
+      }
+      
+      .slider__runtime {
+        margin: 0.5rem 0;
+        font-size: 12px;
+      }
+  
+      .slider__deskripsi {
+        font-size: 12px;
+        line-height: 1.2rem;
+        width: 100%;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 525px) {
+    .headline {
+      
+      .slider__info{
+        padding: 3rem;
+      }
+  
+      .slider__title {
+        font-size: 14px;
+      }
+      
+      .slider__runtime {
+        margin: 0.3rem 0;
+        font-size: 12px;
+      }
+  
+      .slider__deskripsi {
+        font-size: 12px;
+        line-height: 1rem;
+        width: 100%;
+      }
+    }
+  }

@@ -1,0 +1,17 @@
+@import '../App.scss';
+
+.movie-list, .topmovie-list{
+    margin: 4rem 4rem;
+
+    h2{
+        color: $color4;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .movie-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 15px;
+    }
+}

@@ -1,0 +1,77 @@
+@import '../App.scss';
+
+@import '../App.scss';
+
+.footer__container {
+    background-color: $color1;
+    border-top: 1px solid $color4;
+    color: $color4;
+    padding: 3rem 4rem;
+  
+    .footer__row {
+      display: flex;
+      justify-content: space-between;
+      gap: 20rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .footer__logo {
+      h1 {
+        margin-bottom: 1rem;
+      }
+      
+      p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.3rem;
+      }
+    }
+  
+    .footer__sosmed{
+      display: flex;
+      justify-content: end;
+      gap: 1rem;
+    }
+  
+    #footer__rights {
+      text-align: right;
+      margin-top: 1.5rem;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+  
+@media screen and (max-width: 768px) {
+  .footer__container{
+      .footer__row{
+        gap: 10rem;
+      }
+  }
+}
+  
+  @media screen and (max-width: 576px) {
+    .footer__container{
+        .footer__row{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 2rem;
+        }
+  
+        .footer__logo {
+          text-align: center;
+        }
+  
+        .footer__sosmed{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 2rem;
+        }
+  
+        #footer__rights{
+          text-align: center;
+        }
+    }
+  }
+  

@@ -1,0 +1,46 @@
+@import '../App.scss';
+
+.register{
+    .register__container{
+        margin: 6rem 4rem;
+
+        .email, .sandi, .confirm, .username{
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            color: white;
+            gap: 1rem;
+            margin-bottom: 1rem;
+
+            label{
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            p{
+                font-weight:lighter;
+                font-size: 14px;
+            }
+
+            input{
+                padding: 0.5rem 0;
+                padding-right: 6rem;
+                padding-left: 1rem;
+                border: none;
+                border-radius: 0.5rem;
+            }
+
+        
+        }
+    }
+
+    button{
+        margin-top: 1.5rem;
+        padding: 0.5rem 2rem;
+        border: none;
+        border-radius: 1rem;
+        background: $color3;
+        color: white;
+        cursor: pointer;
+    }
+}

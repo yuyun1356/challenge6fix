@@ -1,0 +1,24 @@
+$color1:#23272F;
+$color2:#333A45;
+$color3:#1598C2;
+$color4:#fff;
+$color5:#000;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: $color1;
+}
+
+.container{
+    margin: 0 3.5rem;
+}

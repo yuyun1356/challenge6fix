@@ -1,0 +1,56 @@
+@import '../App.scss';
+
+.login{
+    .login__container{
+        margin: 6rem 4rem;
+
+        .email, .password{
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            color: white;
+            gap: 1rem;
+
+            label{
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            p{
+                margin-bottom: 2rem;
+                font-weight:lighter;
+                font-size: 14px;
+            }
+
+            input{
+                padding: 0.5rem 0;
+                padding-right: 6rem;
+                padding-left: 1rem;
+                border: none;
+                border-radius: 0.5rem;
+            }
+
+        
+        }
+    }
+
+    button{
+        margin-top: 1.5rem;
+        padding: 0.5rem 2rem;
+        border: none;
+        border-radius: 1rem;
+        background: $color3;
+        color: white;
+        cursor: pointer;
+    }
+
+    hr{
+        margin-top: 2rem;
+    }
+
+    .login__google{
+        color: white;
+        margin-top: 2rem;
+        font-size: 14px;
+    }
+}
